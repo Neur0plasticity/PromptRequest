@@ -41,8 +41,9 @@ ask me in bash what is my goal
   success:true,
   permissions: [""],
   ext,
-  coderesponse: "",
+  coderesponse: [codePerPermission],
   nexttaskselfprompt: "",
+  responseconfidence,
 }
 </response format>
 <response format onerror>
